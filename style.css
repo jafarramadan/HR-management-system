@@ -1,59 +1,144 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  .employee-container {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  
-  .employee-details {
-    display: flex;
-    align-items: center;
-  }
-  .employee-name {
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .employee-salary {
-    font-size: 18px;
-    color: #555;
-  }
-  
-  footer div {
-    margin-top: 10px;
-  }
-  
-  footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  button:hover {
-    background-color: #0057b334;
-  }
+  font-family: serif;
+  background-color: #dcd6d6e1;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.employee-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.employee-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.employee-image {
+  padding: 10px;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+
+}
+
+.employee-id {
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.employee-name {
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.employee-salary {
+  font-size: 18px;
+  color: #555;
+}
+
+.employee-level {
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.employee-department {
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+footer {
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #0057b334;
+}
+
+
+#form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style the field labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the input fields */
+input[type="text"],
+select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: gray;
+}
+
+#secc {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
