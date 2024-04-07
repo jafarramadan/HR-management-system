@@ -99,14 +99,14 @@ button:hover {
   background-color: #f9f9f9;
 }
 
-/* Style the field labels */
+
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-/* Style the input fields */
+
 input[type="text"],
 select {
   width: 90%;
@@ -117,7 +117,7 @@ select {
   font-size: 14px;
 }
 
-/* Style the submit button */
+
 input[type="submit"] {
   background-color: #333;
   color: #fff;
@@ -128,7 +128,7 @@ input[type="submit"] {
   font-size: 16px;
 }
 
-/* Hover effect for the submit button */
+
 input[type="submit"]:hover {
   background-color: gray;
 }
@@ -141,4 +141,18 @@ input[type="submit"]:hover {
 
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+th {
+  background-color: #f2f2f2;
 }
